@@ -1,6 +1,6 @@
 # {{{ -- meta
 
-HOSTARCH  := x86_64# on travis.ci
+HOSTARCH  := armhf# on travis.ci
 ARCH      := $(shell uname -m | sed "s_armv7l_armhf_")# armhf/x86_64 auto-detect on build and run
 OPSYS     := alpine
 SHCOMMAND := /bin/bash
